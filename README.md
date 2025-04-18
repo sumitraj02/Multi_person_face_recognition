@@ -49,6 +49,8 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 Step 7: Generate Face Embeddings
 
 python src/dlib_face_embeddings.py
+
+
 Step 8: Run the Project
 
 python -m flask --app src/app.py run --host=0.0.0.0
